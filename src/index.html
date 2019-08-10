@@ -1,0 +1,46 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Crypto</title>
+
+        <link rel="stylesheet" href="static/libs/bootstrap.min.css">
+        <link rel="stylesheet" href="static/libs/font-awesome.min.css">
+        <link rel="stylesheet" href="static/libs/fontawesome-all.min.css">
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="static/libs/jquery-ui.min.css">
+
+        <script src="static/libs/jquery.min.js"></script>
+        <script src="static/libs/bootstrap.min.js"></script>
+        <script src="static/libs/jquery.tablesorter.js"></script>
+        <script src="static/libs/jquery-ui.min.js"></script>
+        <script src="static/libs/jquery.columnizer.js"></script>
+        <script src="static/libs/notify.js"></script>
+    </head>
+
+    <body>
+        <div id="date"></div>
+        <div class="wrapper" style="margin:30px auto">
+            <div class="col-xs-12 col-lg-6 col-lg-offset-3">
+                <div class="row" style="height:100%">
+                    <div id="container">
+                        <table class="table table-striped">
+                          <thead>
+                            <tr>
+                              <th scope="col">Symbol</th>
+                              <th scope="col">Initial Price</th>
+                              <th scope="col">Last Price</th>
+                              <th scope="col">Spread</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+
+                          </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="static/libs/socket.io.js"></script>
+        <script src="static/js/streamer.js"></script>
+    </body>
+</html>
